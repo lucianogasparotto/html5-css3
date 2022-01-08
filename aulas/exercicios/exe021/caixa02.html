@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkolivegreen;
+            margin: 0px;
+        }
+        header {
+            background-color: rgb(119, 14, 238);
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 1px black;
+            border-radius: 5px;
+        }
+        header > h1 {
+            text-align: center;
+        }
+        main {
+            background-color: yellow;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 1px black;
+            border-radius: 5px;
+        }
+        article {
+            background-color: violet;
+            padding: 5px;
+            box-shadow: 1px 1px 1px black;
+            border-radius: 5px;
+        }
+        article > aside {
+            background-color: rgb(163, 27, 163);
+            box-shadow: 1px 1px 1px black;
+            border-radius: 2px;
+        }
+        footer {
+            background-color: royalblue;
+            color: seashell;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.315);
+            border-radius: 5px;
+        }
+        nav {
+            background-color: sienna;
+            padding: 3px;
+            box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.315);
+            border-radius: 5px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: springgreen;
+            font-weight: bold;
+            padding: 10px;
+        }
+        nav > a:hover {
+            text-decoration: skyblue;
+            text-decoration: underline;
+        }
+        footer > p > em {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        footer > p > em:hover {
+            text-decoration: aqua;
+            text-decoration: underline;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        /* exemplo de bola com div */
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.315);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Esporte e Lazer</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic a porro, repellat consequuntur repellendus iste accusamus? Officiis facilis ut excepturi cum velit voluptate molestiae eaque, saepe, laboriosam et, corporis voluptas.</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias Sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit placeat doloremque earum cupiditate laudantium autem velit expedita tempora? Asperiores recusandae hic cupiditate quod repellendus! Maiores quidem temporibus aliquam animi pariatur.</p>
+                <aside>Artigo escrito por José da Silva</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="https://www.instagram.com/lucianogasparotto/" target="_blank"><em>Luciano Gasparotto</em></a> webdesigner</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url(../images/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+  height: 110vh;
+}
+
+.container1 {
+  max-width: 450px;
+  background-color: rgba(19, 18, 18, 0.9450980392);
+}
+
+.topLogo {
+  width: 180px;
+}
+
+#paragraph {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.fotter {
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+.emailLga {
+  color: gray;
+}
+.emailLga:hover {
+  color: white;
+}
+
+@media (max-width: 320px) {
+  body {
+    height: 120vh;
+  }
+  body .container1 {
+    font-size: 15px;
+  }
+  body .fotter {
+    font-size: 14px;
+  }
+}
+@media (min-width: 2560px) {
+  body {
+    height: 74vh;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
